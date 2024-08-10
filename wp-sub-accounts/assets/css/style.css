@@ -1,0 +1,106 @@
+
+
+/* Specific styles for the wp-sub-accounts form */
+#wp-sub-accounts-form {
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wp-sub-accounts-form input[type="text"],
+#wp-sub-accounts-form input[type="email"],
+#wp-sub-accounts-form input[type="password"],
+#wp-sub-accounts-form select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#wp-sub-accounts-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+#wp-sub-accounts-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0073aa;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#wp-sub-accounts-form button[type="submit"]:hover {
+    background-color: #005885;
+}
+
+/* Specific styles for the wp-sub-accounts table */
+#wp-sub-accounts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+#wp-sub-accounts-table, 
+#wp-sub-accounts-table th, 
+#wp-sub-accounts-table td {
+    border: 1px solid #ddd;
+}
+
+#wp-sub-accounts-table th {
+    text-align: left;
+    padding: 12px;
+    background-color: #333; /* Light black color for th */
+    color: #fff;
+}
+
+#wp-sub-accounts-table td {
+    text-align: left;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.update-pages-row td {
+    background-color: #fafafa;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005885;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Warning message styles */
+.warning-message {
+    color: red;
+    font-weight: bold;
+}
